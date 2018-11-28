@@ -1,0 +1,79 @@
+.hide{
+  display: none
+}
+
+.t-a-r{
+  text-align: right
+}
+
+header{
+  position: absolute;
+  width: 100%;
+  top: 10px
+}
+
+#containerLogin{
+  margin-top: 60px;
+}
+
+#containerLogin #boxColor{
+  width: 60px;
+  height: 60px;
+  border: solid 1px #cecece
+}
+
+#containerChat{
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  bottom: 60px;
+}
+
+#containerMessages{
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 80vh
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+ul li{
+  width: 100%;
+  padding-bottom: 10px
+}
+
+ul li .content-msg{
+  max-width: 200px;
+  color: #333;
+  border: solid #cecece 1px;
+  text-align: left;
+  border-radius: 3px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+ul li .content-msg .name{
+  font-size: 12px
+}
+
+#formMessages{
+  width: 100%;
+  position: absolute;
+  bottom: 10px
+}
+
+#formMessages .row .col-12{
+  position: relative;
+  padding-right: 90px
+}
+
+#formMessages button{
+  position: absolute;
+  right: 0px;
+  top: 0px
+}
