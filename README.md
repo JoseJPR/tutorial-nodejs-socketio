@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-1. Clone this repository inside the plugin folder of your strapi project.
+1. Clone this repository.
 
 2. Enter the directory.
 
