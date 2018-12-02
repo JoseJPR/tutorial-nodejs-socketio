@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="./static/css/style.css">
   </head>
   <body>
-    <header>
+  <header class="shadow-sm">
       <div class="container">
           <div class="row">
-            <div class="col-6">
-              <h4>Tutorial | Chat Example Socket.IO</h4>
+            <div class="col-10">
+              <img class="logo" src="./static/images/logo-nodejs.png"><img class="logo" src="./static/images/logo-socketio.png"><span class="h2">Tutorial | NodeJS - SocketIO</span>
             </div>
-            <div class="col-6 t-a-r">
-              <button id="buttonExit" class="btn btn-primary mb-2 hide">Exit</button>
+            <div class="col-2 text-right">
+              <button id="buttonExit" class="btn btn-outline-primary btn-sm shadow-sm m-t-10 hide">Exit</button>
             </div>
           </div>
         </div>
@@ -25,17 +25,18 @@
           <div class="col-3"></div>
           <div class="col-6">
             <div class="form-group">
+              <h4>Channel</h4>
+              <label for="exampleInputEmail1">The channel in this tutorial is <i>TestChannel</i></label>
+              <input type="text" class="form-control form-control-sm shadow-sm" id="channel" placeholder="Enter channel name" disabled>
+            </div>
+            <div class="form-group">
+              <h4>User</h4>
+              <label for="exampleInputEmail1">Color</label>
               <div id="boxColor"></div>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Channel</label>
-              <input type="text" class="form-control" id="channel" placeholder="Enter channel name" disabled>
-            </div>
-            <div class="form-group">
               <label for="exampleInputEmail1">Name</label>
-              <input type="email" class="form-control" id="name" placeholder="Enter your name">
+              <input type="email" class="form-control form-control-sm shadow-sm" id="name" placeholder="Enter your name">
             </div>
-            <button id="connectChannel" class="btn btn-primary">Enter</button>
+            <button id="connectChannel" class="btn btn-outline-primary btn-sm shadow-sm">Enter</button>
           </div>
           <div class="col-3"></div>
         </div>
@@ -51,8 +52,8 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-                <input type="text" class="form-control" id="inputMessage"></input>
-                <button id="buttonSend" type="submit" class="btn btn-primary mb-2">Submit</button>
+                <input type="text" class="form-control form-control-sm shadow-sm" id="inputMessage"></input>
+                <button id="buttonSend" type="submit" class="btn btn-outline-primary btn-sm shadow-sm">Send</button>
             </div>
           </div>
         </div>

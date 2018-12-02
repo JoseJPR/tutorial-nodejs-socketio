@@ -1,4 +1,4 @@
-# Tutorial NodeJS Socket.IO
+# Tutorial NodeJS and Socket.IO
 
 Create Socket Server with NodeJS and Socket.io.
 
@@ -24,6 +24,11 @@ npm install
 npm start
 ```
 
+![Screenshot](screenshot-1.png)
+![Screenshot](screenshot-2.png)
+
 ### Contact
 
-Send email to: jose.perez@ceroyuno.es
+Linkedin: https://www.linkedin.com/in/josejpr/ \
+Twitter: https://twitter.com/JoseJ_PR \
+Send email to: jose.perez@sngular.com

@@ -1,3 +1,9 @@
+.logo{
+  width: 60px;
+  height: auto;
+  margin-right: 20px
+}
+
 .hide{
   display: none
 }
@@ -6,34 +12,45 @@
   text-align: right
 }
 
+label{
+  font-size: 12px
+}
+
+.m-t-10{
+  margin-top: 10px
+}
+
 header{
   position: absolute;
   width: 100%;
-  top: 10px
+  top: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #containerLogin{
-  margin-top: 60px;
+  margin-top: 110px;
 }
 
 #containerLogin #boxColor{
   width: 60px;
   height: 60px;
-  border: solid 1px #cecece
+  border: solid 1px #cecece;
+  border-radius: 60px;
 }
 
 #containerChat{
   position: absolute;
   width: 100%;
-  top: 60px;
-  bottom: 60px;
+  top: 110px;
+  bottom: 20px;
 }
 
 #containerMessages{
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  max-height: 80vh
+  max-height: 80vh;
 }
 
 ul{
@@ -51,7 +68,7 @@ ul li .content-msg{
   color: #333;
   border: solid #cecece 1px;
   text-align: left;
-  border-radius: 3px;
+  border-radius: 10px;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px
@@ -64,12 +81,12 @@ ul li .content-msg .name{
 #formMessages{
   width: 100%;
   position: absolute;
-  bottom: 10px
+  bottom: 0px
 }
 
 #formMessages .row .col-12{
   position: relative;
-  padding-right: 90px
+  padding-right: 60px
 }
 
 #formMessages button{

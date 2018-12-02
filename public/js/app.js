@@ -88,7 +88,7 @@ const sendMessage = function (txt){
 
 //Add message into list ul
 const addMessage = function(data){
-  listMessages.insertAdjacentHTML("beforeend", '<li><div class="content-msg" style="background-color:#' + data.user.color + '"><div class="name">' + data.user.name + '</div><div class="txt">' + data.msg + '</div></div></li>');
+  listMessages.insertAdjacentHTML("beforeend", '<li><div class="content-msg shadow-sm" style="background-color:#' + data.user.color + '"><div class="name">' + data.user.name + '</div><div class="txt">' + data.msg + '</div></div></li>');
   gotoBottom(containerMessages);
 }
 
